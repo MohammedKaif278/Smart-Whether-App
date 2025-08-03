@@ -69,6 +69,7 @@
       background: none;
       border: none;
       color: inherit;
+      
     }
 
     h2 {
@@ -237,11 +238,11 @@
       }
 
       .search-box input, .search-box button {
-        font-size: 14px;
+        font-size: 18px;
       }
 
       #main p {
-        font-size: 14px;
+        font-size: 18px;
       }
     }
 
