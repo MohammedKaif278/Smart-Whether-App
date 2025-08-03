@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌤️ Smart Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="app-container">
+       <button class="toggle-dark" id="darkToggle" >🌓</button>
+       <h2>🌦️ Weather Now</h2>
+       <div class="search-box">
+         <input type="text" id="inp" placeholder="Enter city name..." autofocus/>
+         <button id="btn">🔍</button>
+    </div>
+    <p id="loading" style="display:none;">⏳ Loading...</p>
+    <div id="main" class="weather-card"></div>
+  </div>
+    <script src="./script.js"></script>
+</body>
+</html>
